@@ -65,3 +65,7 @@ from stg_users_day3 t1
     inner join cte_max t3 on 1 = 1
 where t2.username is null;
 
+
+/* 
+youtube link  : https://youtu.be/otWACEg9gU4
+*/
