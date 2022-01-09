@@ -1,7 +1,8 @@
 -- 3 ways to add leading zeros in SQL
 
-/* using to_char function */
+-- Ouptut should be 4 digit , add leading 0s if required to make it 4 digit.
 
+/* using to_char function */
 select catid,
 to_char(catid,'0000') as catid_1
 from category
