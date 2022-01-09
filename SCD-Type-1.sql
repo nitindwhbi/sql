@@ -40,6 +40,8 @@ from edw_users_scd1;
      update any old record
      You can also use MERGE statement
      */
+     
+ -- change staging table name    
 
 update edw_users_scd1 t2
 set phone = t1.phone
