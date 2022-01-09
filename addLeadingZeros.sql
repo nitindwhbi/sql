@@ -23,3 +23,5 @@ select catid,
 right('0000'||catid,4) as catid_1
 from category
 order by 1 desc;
+
+/* youtube link : https://youtu.be/otWACEg9gU4 */
